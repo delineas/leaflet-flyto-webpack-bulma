@@ -1,0 +1,30 @@
+{
+  "name": "leaflet-webpack",
+  "version": "1.0.0",
+  "description": "Leaflet webpack configuration",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "develop": "webpack --watch  --colors",
+    "serve": "http-server ./dist"
+  },
+  "author": "Ben Schroeder",
+  "license": "ISC",
+  "dependencies": {
+    "@mapbox/leaflet-omnivore": "^0.3.4",
+    "bulma": "^0.7.1",
+    "font-awesome": "^4.7.0",
+    "leaflet": "^1.2.0",
+    "leaflet-extra-markers": "^1.0.6"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "csv-loader": "^2.1.1",
+    "file-loader": "^1.1.5",
+    "html-loader": "^0.5.5",
+    "http-server": "^0.11.1",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.8.1",
+    "webpack-cli": "^2.1.3"
+  }
+}

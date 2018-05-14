@@ -1,0 +1,34 @@
+.no-gutter > .column {
+    padding-right:0;
+    padding-left:0;
+}
+
+#map {
+    height: 100vh;
+}
+
+.column.places-container {
+    overflow: auto;
+    height: 100vh;
+}
+
+.content-header	{
+    padding: 1rem;
+}
+.scroll {
+    color: #444;
+    margin-bottom:15px;
+    text-align: center;
+}
+.content-places {
+    padding: 0 2vw;
+}
+
+.card {
+    margin-bottom: 15px;
+    margin-right: 1vw;
+}
+
+.empty {
+    height: 400px;
+}
