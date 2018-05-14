@@ -34,14 +34,14 @@ Puedes alterar los datos que se cargan en el mapa utilizando el fichero `./src/d
 
 Las imágenes están en `./src/img`. El nombre de la columna `photo` debe coincidir con el nombre de las imágenes que quieras utilizar de esta carpeta. Las imágenes visibles en la demo no están disponibles en este repositorio.
 
-#Librerías
+### Librerías
 * Mapas con [Leaflet](http://leafletjs.com/)
 * Base para la configuración [leaflet-webpack](https://github.com/btpschroeder/leaflet-webpack)
 * Lectura de datos con [leaflet-onmivore](https://github.com/mapbox/leaflet-omnivore)
 * Marcadores con estilos gracias a [leaflet-extramarkers](https://www.npmjs.com/package/leaflet-extra-markers)
 * Layout con [Bulma](http://bulma.io)
 
-#Todo
+## Todo
 
 * Modularizar 
 * Componentes
